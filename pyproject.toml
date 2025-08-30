@@ -1,3 +1,14 @@
+[project]
+name = "ai-buffet"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "fastmcp>=2.11.3",
+    "mcp[cli]>=1.13.1",
+]
+
 [tool.black]
 line_length = 99
 target_version = ["py312"]
