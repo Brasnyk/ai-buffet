@@ -25,8 +25,10 @@ Get started:
 5. $ uv run mcp install server.py
 6. $ uvx mcp-scan@latest scan
 7. $uvx mcp-scan@latest proxy
-7.1. if paired with Snyk MCP in cursor:
-7.1.1. mcp.json
+
+if paired with Snyk MCP in cursor:
+
+mcp.json
 {
     "mcpServers": {
         "Snyk": {
@@ -42,7 +44,6 @@ Get started:
         },
     }
 }
-
 
 Resources used to setup:
 - https://pypi.org/project/mcp/#adding-mcp-to-your-python-project
